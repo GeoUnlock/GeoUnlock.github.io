@@ -7,41 +7,43 @@ body {
     color: #333;
 }
 
+/* Header Styling */
 .header {
-    position: relative; /* This makes sure we can move elements inside */
-    text-align: center;
-    padding: 100px 0; /* Adjust this value to move text higher */
+    text-align: left;
+    padding: 50px 0; /* Adjust spacing */
+    background-color: transparent; /* Will be replaced with an image */
+    position: relative;
 }
 
 .header h1 {
-    position: absolute;
-    top: 20%; /* Moves text up */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2.5em;
+    margin: 0;
+    color: #004466;
+    font-size: 3em;
+    position: relative; /* Removes absolute positioning */
 }
 
-.blue-section {
-    background-color: #003366; /* This is the blue color */
-    height: 300px; /* Adjust this to move it lower */
-    position: relative;
-    top: 50px; /* Moves the blue section down */
+/* Navigation Bar */
+nav {
+    background-color: #003366; /* Dark blue background */
+    padding: 15px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -49,10 +51,20 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Blue Section (Will be replaced by an image later) */
+.blue-section {
+    background-color: #003366; /* Temporary color */
+    height: 250px; /* Adjust the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Sections Styling */
 section {
-    padding: 100px 20px;
+    padding: 80px 20px;
     text-align: center;
+    background-color: white;
 }
 
 h1, h2 {
