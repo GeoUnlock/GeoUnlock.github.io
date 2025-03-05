@@ -54,10 +54,12 @@ nav ul li a:hover {
 /* Blue Section (Will be replaced by an image later) */
 .blue-section {
     background-color: #003366; /* Temporary color */
-    height: 250px; /* Adjust the height */
+    height: 1500px; /* Adjust the height */
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
 }
 
 /* Sections Styling */
